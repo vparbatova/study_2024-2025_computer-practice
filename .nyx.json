@@ -1,0 +1,24 @@
+{
+  "preset": "gitflow",
+  "release": {
+    "remote": {
+      "type": "github",
+      "token": "ВАШ_GITHUB_ТОКЕН"
+    },
+    "assets": [
+      {
+        "path": "CHANGELOG.md",
+        "label": "Changelog"
+      }
+    ]
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "sections": ["features", "fixes", "breaking", "docs", "tests"]
+  },
+  "version": {
+    "majorVersionPattern": "major|breaking",
+    "minorVersionPattern": "feat|feature",
+    "patchVersionPattern": "fix|docs|refactor|perf|test|chore"
+  }
+}

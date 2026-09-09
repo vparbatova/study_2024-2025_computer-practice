@@ -364,3 +364,9 @@ plugins
 .vbox/
 .config/
 vm/
+
+# Nyx
+.nyx/
+nyx-*
+nyx-*
+*.log
