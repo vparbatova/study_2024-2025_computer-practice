@@ -1,0 +1,12 @@
+{
+  "versioning": {
+    "preMajorMode": "auto"
+  },
+  "git": {
+    "push": true,
+    "commitChanges": true
+  },
+  "release": {
+    "enabled": true
+  }
+}
